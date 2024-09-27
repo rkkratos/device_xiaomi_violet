@@ -184,6 +184,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
+PRODUCT_PACKAGES += \
+    libstagefright_softomx.vendor \
+    XiaomiDolby \
+    libstagefright_softomx_plugin.vendor
+
 TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_COPY_FILES += \
