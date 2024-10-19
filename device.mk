@@ -196,14 +196,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
-<<<<<<< HEAD
-=======
 PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor \
     XiaomiDolby \
     libstagefright_softomx_plugin.vendor
 
->>>>>>> 56f9d847 (violet: Use common Dolby Atmos from hw_xiaomi)
 TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_COPY_FILES += \
