@@ -111,7 +111,6 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libtinycompress \
-    libtinycompress.vendor \
     libvolumelistener
 
 PRODUCT_COPY_FILES += \
@@ -159,12 +158,6 @@ PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
     libmegface
 
-# CNE
-PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.quicinc.cne \
-    services-ext
-
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -181,7 +174,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     gralloc.sm6150 \
     hwcomposer.sm6150 \
-    libdisplayconfig \
     libtinyxml \
     libvulkan \
     vendor.qti.hardware.display.allocator-service \
@@ -336,10 +328,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.xiaomi_sm6150
-
 # Media
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
@@ -404,7 +392,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom_ramdisk \
     fstab.qcom \
     init.insmod.sh \
-    init.msm.usb.configfs.rc \
     init.power.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
@@ -549,8 +536,7 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_32 \
     libdisplayconfig.qti \
     vendor.display.config@2.0 \
-    libdisplayconfig.vendor \
     libnl \
     libqdMetaData \
     libqdMetaData.system \
-    libqdMetaData.vendor
+

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_violet.mk
+    $(LOCAL_DIR)/pixelage_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_violet-eng \
-    derp_violet-userdebug \
-    derp_violet-user
+    pixelage_violet-eng \
+    pixelage_violet-userdebug \
+    pixelage_violet-user
