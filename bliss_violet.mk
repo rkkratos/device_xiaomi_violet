@@ -7,9 +7,9 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common DerpFest AOSP stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
-DERP_BUILDTYPE := Official
+# Inherit some common BlissRom stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+BLISS_BUILDTYPE := UNOFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_NOT_USES_BLUR := true
@@ -34,7 +34,7 @@ $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 EXTRA_UDFPS_ICONS := false
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_violet
+PRODUCT_NAME := bliss_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
