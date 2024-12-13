@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_violet.mk
+    $(LOCAL_DIR)/pixelage_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_violet-eng \
-    lineage_violet-userdebug \
-    lineage_violet-user
+    pixelage_violet-eng \
+    pixelage_violet-userdebug \
+    pixelage_violet-user

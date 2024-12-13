@@ -9,15 +9,11 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common EvolutionX stuff.
-$(call inherit-product, vendor/lineage/config/common.mk)
-EVO_BUILD_TYPE := Unofficial
+$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_NOT_USES_BLUR := true
-
-#GMS
-WITH_GMS := true
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
@@ -26,7 +22,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_violet
+PRODUCT_NAME := pixelage_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
